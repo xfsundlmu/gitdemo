@@ -16,7 +16,10 @@ int mul(int x, int y)
 
 int div(int x, int y)
 {
-	return x / y;
+	if(y != 0)
+		return x / y;
+
+	return 0;
 }
 
 
