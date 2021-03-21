@@ -22,6 +22,15 @@ int div(int x, int y)
 	return 0;
 }
 
+void print()
+{
+	std::cout << "print something..." << std::endl;
+}
+
+void print2()
+{
+	std::cout << "print something...22222" << std::endl;
+}
 
 int main(int argc, char const *argv[])
 {
